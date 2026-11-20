@@ -15,4 +15,4 @@
 Из API получено 6473 записи, в PostgreSQL загружено 6458.
 Ещё 15 записей пропущены при проверке данных.
 
-Рассчитанная дневная статистика выгружена в Google Sheets - https://docs.google.com/spreadsheets/d/1OZyXWozDVcjcNyzcLsw5Ab94TYhBXYVACsY1Wie0q60/edit?usp=sharing 
+Статистику (задание со звездочкой) я выгрузил в гугл таблицы - https://docs.google.com/spreadsheets/d/1OZyXWozDVcjcNyzcLsw5Ab94TYhBXYVACsY1Wie0q60/edit?usp=sharing 
