@@ -1,0 +1,19 @@
+services:
+  db:
+    image: postgres:17
+    environment:
+      POSTGRES_DB: grader_db
+      POSTGRES_USER: grader_user
+      POSTGRES_PASSWORD: local_dev_password
+    ports:
+      - "127.0.0.1:54333:5432"
+    volumes:
+      - grader_postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U grader_user -d grader_db"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+volumes:
+  grader_postgres_data:

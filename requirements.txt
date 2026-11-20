@@ -1,0 +1,4 @@
+requests
+psycopg2-binary
+python-dotenv
+gspread>=6.0,<7
